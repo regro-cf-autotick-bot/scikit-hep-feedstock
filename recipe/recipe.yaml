@@ -24,21 +24,21 @@ requirements:
     - setuptools >=62.6
   run:
     - python >=${{ python_min }}
-    - awkward >=2.14.0,<2.15.dev0
-    - decaylanguage >=1.1.0,<1.2.dev0
-    - hepstats >=0.10.0,<0.11.dev0
-    - hepunits >=2.4.0,<2.5.dev0
-    - hist >=2.12.0,<2.13.dev0
-    - histoprint >=2.7.0,<2.8.dev0
-    - iminuit >=2.33.0,<2.34.dev0
+    - awkward ~=2.14.0
+    - decaylanguage ~=1.1.0
+    - hepstats ~=0.10.0
+    - hepunits ~=2.4.0
+    - hist ~=2.12.0
+    - histoprint ~=2.7.0
+    - iminuit ~=2.33.0
     - matplotlib-base >3.4.0
-    - mplhep >=1.2.0,<1.3.dev0
+    - mplhep ~=1.2.0
     - numpy >=1.13.1
-    - particle >=1.0.0,<1.1.dev0
-    - pylhe >=2.1.0,<2.2.dev0
-    - resample >=1.10.0,<1.11.dev0
-    - uproot >=5.7.0,<5.8.dev0
-    - vector >=1.9.0,<1.10.dev0
+    - particle ~=1.0.0
+    - pylhe ~=2.1.0
+    - resample ~=1.10.0
+    - uproot ~=5.7.0
+    - vector ~=1.9.0
 tests:
   - python:
       imports:
